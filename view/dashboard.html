@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnCode</title>
+    <link rel="stylesheet" href="/asset/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navigasi">
+        <span class="hamburger-btn material-symbols-rounded"
+          ><i data-feather="menu"></i
+        ></span>
+        <a href="#" class="logo">
+          <img src="/asset/img/dashboard/logo-website.png" alt="logo" />
+          <h2>LearnCode</h2>
+        </a>
+        <ul class="links">
+          <span class="close-btn material-symbols-rounded">close</span>
+          <li><a href="#homepage">Beranda</a></li>
+          <li><a href="/view/about.html">Tentang Kami</a></li>
+          <li><a href="#card">Kelas</a></li>
+          <li><a href="#testimoni">Testimony</a></li>
+        </ul>
+        <button class="login-btn">LOG IN</button>
+      </nav>
+      <div>
+        <div class="blur-bg-overlay"></div>
+        <div class="form-popup">
+          <span class="close-btn material-symbols-rounded">close</span>
+          <div class="form-box login">
+            <div class="form-details">
+              <h2>Selamat Datang</h2>
+              <p>Harap login terlebih dahulu untuk informasi lebih lanjut</p>
+            </div>
+            <div class="form-content">
+              <h2>LOGIN</h2>
+              <form action="#">
+                <div class="input-field">
+                  <input type="text" required />
+                  <label>Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" required />
+                  <label>Password</label>
+                </div>
+                <a href="#" class="forgot-pass-link">Lupa password?</a>
+                <button type="submit">Log In</button>
+              </form>
+              <div class="bottom-link">
+                Belum Daftar?
+                <a href="#" id="signup-link">Daftar</a>
+              </div>
+            </div>
+          </div>
+          <div class="form-box signup">
+            <div class="form-details">
+              <h2>Daftar</h2>
+              <p>
+                Untuk Bergabung dengan kelas kami, silahkan mendaftar menggunakan
+                informasi pribadi Anda.
+              </p>
+            </div>
+            <div class="form-content">
+              <h2>Daftar</h2>
+              <form action="#">
+                <div class="input-field">
+                  <input type="text" required />
+                  <label>Masukkan email Anda</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" required />
+                  <label>Buat password</label>
+                </div>
+                <div class="policy-text">
+                  <input type="checkbox" id="policy" />
+                  <label for="policy">
+                    setuju dengan
+                    <a href="#" class="option">Syarat & Ketentuan</a>
+                  </label>
+                </div>
+                <button type="submit">Sign Up</button>
+              </form>
+              <div class="bottom-link">
+                Sudah memiliki akun?
+                <a href="#" id="login-link">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="desktop" id="homepage">
+      <div class="section">
+        <div class="frame-2">
+          <div class="frame-3">
+            <div class="frame-4">
+              <p class="p">Website Belajar Programing Untuk pemula</p>
+            </div>
+            <p class="text-wrapper-3">
+              Mari belajar bersama kami di website ini tentang html, css dan
+              javascript dengan GRATIS !!!
+            </p>
+          </div>
+          <div class="group">
+            <button class="overlap-group">
+              <a href="#" id="daftar" class="daftar">Daftar Courses</a>
+            </button>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <img
+            class="img"
+            src="/asset/img/dashboard/gambar-hmpg.png"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          />
+        </div>
+        <div class="gradasi"></div>
+      </div>
+    </section>
+
+    <div id="kelas">
+      <div class="container " style="height: auto">
+        <div class="wreaper" id="card">
+          
+        </div>
+        <div class="card">
+          <div class="circle">
+            <img src="/asset/img/dashboard/html.png" class="img-card" alt="" />
+          </div>
+          <div class="content">
+            <p>
+              disini kamu akan belajar dasar dasar html seperti html form, html
+              graphic, html ,media dan lain lain
+            </p>
+            <a href="/view/card/cardHtml.html">Pelajari Sekarang</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <img src="/asset/img/dashboard/css.png" class="img-card" alt="" />
+          </div>
+          <div class="content">
+            <p>
+              disini kamu akan belajar dasar dasar css seperti dasar dasar css,
+              layout css, styling css dan lain lain
+            </p>
+            <a href="/view/card/cardCss.html">Pelajari Sekarang</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <img src="/asset/img/dashboard/js.png" class="img-card" alt="" />
+          </div>
+          <div class="content">
+            <h1></h1>
+            <p>
+              disini kamu akan belajar dasar dasar html seperti dasar dasar
+              javascript, tipe data, variabel dan lain lain
+            </p>
+            <a href="/view/card/cardJs.html">Pelajari Sekarang</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+
+    <div class="container-mentor" id="mentor" style="margin-top: -2rem">
+      <div id="flex-container" class="testimonials">
+        <div id="left-zone">
+          <ul class="list">
+            <li class="item">
+              <input
+                type="radio"
+                id="radio_testimonial-1"
+                name="basic_carousel"
+                checked="checked"
+              />
+              <label
+                class="label_testimonial-1"
+                for="radio_testimonial-1"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                >Mentor 1</label
+              >
+              <div class="content-test content_testimonial-1">
+                <img
+                  class="item-img"
+                  src="/asset/img/dashboard/gambar-mentor-3.jpg"
+                  alt=""
+                />
+                <p>"Mengajar dibidang Pemograman Berorientasi Objek (PBO) "</p>
+                <p class="testimonialFrom">Fath faizal Mubarak, S.Pd</p>
+                <p class="testimonialState">Mentor 1 LearnCode</p>
+              </div>
+            </li>
+            <li class="item">
+              <input
+                type="radio"
+                id="radio_testimonial-2"
+                name="basic_carousel"
+              />
+              <label
+                class="label_testimonial-2"
+                for="radio_testimonial-2"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                >Mentor 2</label
+              >
+              <div class="content-test content_testimonial-2">
+                <img
+                  class="item-img"
+                  src="/asset/img/dashboard/gambar-mentor-2.jpg"
+                  alt=""
+                />
+                <p>"Mengajar Dibidang keahlian UI/UX Design Website"</p>
+                <p class="testimonialFrom">Eka Mutia Putri, S.Kom</p>
+                <p class="testimonialState">Mentor 2 LearnCode</p>
+                <br />
+              </div>
+            </li>
+            <li class="item">
+              <input
+                type="radio"
+                id="radio_testimonial-3"
+                name="basic_carousel"
+              />
+              <label
+                class="label_testimonial-3"
+                for="radio_testimonial-3"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                >Mentor 3</label
+              >
+              <div class="content-test content_testimonial-3">
+                <img
+                  class="item-img"
+                  src="/asset/img/dashboard/gambar-mentor-1.jpg"
+                  alt=""
+                />
+                <p>
+                  “Mengajar Dibidang Keahlian Basis Data dan Database Website ”
+                </p>
+                <p class="testimonialFrom">Muchammad Nur'syarif, S.Kom</p>
+                <p class="testimonialState">Mentor 3 LearnCode</p>
+              </div>
+            </li>
+            <li class="item">
+              <input
+                type="radio"
+                id="radio_testimonial-4"
+                name="basic_carousel"
+              />
+              <label
+                class="label_testimonial-4"
+                for="radio_testimonial-4"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                >Mentor 4</label
+              >
+              <div class="content-test content_testimonial-4">
+                <img
+                  class="item-img"
+                  src="/asset/img/dashboard/profil.jpg"
+                  alt=""
+                />
+                <p>"Mengajar dibidang keahlian Pemograman Web dan Perangkat Bergerak (PWPB) "</p>
+                <p class="testimonialFrom">Egi Samsul Mu'arif, S.pd</p>
+                <p class="testimonialState">Mentor 4 LearnCode</p>
+                <br />
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="right-zone"></div>
+      </div>
+    </div>
+
+    <div class="container" id="testimoni">
+      <div class="outerdiv">
+        <div class="innerdiv">
+          <h4>Testimony</h4>
+          <!-- div1 -->
+          <div class="div1 eachdiv" data-aos="fade-down">
+            <div class="userdetails">
+              <div class="imgbox">
+                <img
+                  src="/asset/img/dashboard/gmbr-testi-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="detbox">
+                <p class="name">Gilang nur Ramadhani</p>
+                <p class="designation">Siswa Smk N 4 Kuningan</p>
+              </div>
+            </div>
+            <div class="review">
+              <p>
+                "Saya senang sekali Menemukan website untuk belajar pemograman
+                dasar dengan gratis seperti website ini sehingga saya dapat
+                memulai belajar saya dengan maksimal"
+              </p>
+            </div>
+          </div>
+          <!-- div2 -->
+          <div class="div2 eachdiv" data-aos="fade-left">
+            <div class="userdetails">
+              <div class="imgbox">
+                <img
+                  src="/asset/img/dashboard/gmbr-testi-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="detbox">
+                <p class="name">Nicko Martin</p>
+                <p class="designation">Siswa Smk N 4 Kuningan</p>
+              </div>
+            </div>
+            <div class="review">
+              <p>
+                "Website ini sangat bagus sekali meskipun gratis tetapi materi
+                disini cukup lengkap untuk dipelajari"
+              </p>
+            </div>
+          </div>
+          <!-- div4 -->
+          <div class="div4 eachdiv" data-aos="fade-right">
+            <div class="userdetails">
+              <div class="imgbox">
+                <img
+                  src="/asset/img/dashboard/gmbr-testi-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="detbox">
+                <p class="name dark"><source>Reza Muchammad F</p>
+                <p class="designation dark">Siswa SmkN 4 Kuningan</p>
+              </div>
+            </div>
+            <div class="review dark">
+              <p>
+                "Website ini sangat bermanfaat bagi pemula seperti saya yang
+                ingin tau cara membuat website"
+              </p>
+            </div>
+          </div>
+          <!-- div5 -->
+          <div class="div5 eachdiv" data-aos="fade-up">
+            <div class="userdetails">
+              <div class="imgbox">
+                <img
+                  src="/asset/img/dashboard/gmbr-testi-4.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="detbox">
+                <p class="name">M singgih</p>
+                <p class="designation">Siswa SmkN 4 Kuningan</p>
+              </div>
+            </div>
+            <div class="review">
+              <p>
+                "Saya beruntung sekali dapat belajar Diwebsite karena jarang
+                sekali webiste course yang menyediakan secara gratis tanpan
+                dipungut biaya sepeser pun "
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+      class="accordion justify-content-center acordion-container  container-acordion"
+      style="
+        width: 100%;
+        margin: 0;
+        padding-top: 7rem;
+        padding-bottom: 3rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      "
+      id="acordion"
+    >
+      <div
+        class="accordion w-100"
+        id="accordionPanelsStayOpenExample"
+        style="padding: 0 1rem; padding-bottom: 5rem"
+      >
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              data-aos="fade-down"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="500"
+              data-aos-offset="0"
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne"
+              style="box-shadow: none"
+            >
+              Apa itu LearnPlace?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show"
+          >
+            <div class="accordion-body">
+              <p>
+                LearnPlace.code Merupakan website yang didalamnya menyediakan
+                beberapa modul yang bisa kamu baca materi pemrograman dasar
+                seperti HTML, CSS, JavaScript.website ini juga gratis bagi para
+                pengguna tanpa dipungut biaya sepeser pun.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              data-aos="fade-down"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="500"
+              data-aos-offset="0"
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo"
+              style="box-shadow: none"
+            >
+              Apa manfaat belajar di LearnPlace?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              Manfaat dari belajar pemograman dasar di LearnPlace Anda dapat
+              memahami dan mempelajari dasar pemograman website khususnya bagi
+              para pemula yang ingin terjun di dunia IT, Anda Dapat Memulai
+              Belajar di website ini.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              data-aos="fade-down"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="500"
+              data-aos-offset="0"
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree"
+              style="box-shadow: none"
+            >
+              Mengapa harus DiLearnPlace?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              Karena Diwebsite ini kamu dapat mempelajari pemogramman web dasar
+              dengan mudah karena telah disediakan berbagai materi yang kamu
+              ingin pelajari dan juga mudah dimengerti.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              data-aos="fade-down"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="500"
+              data-aos-offset="0"
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFour"
+              style="box-shadow: none"
+            >
+              Berapa lama waktu yang dibutuhkan untuk mempelajari semua ini?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFour"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              LearnPlace berjalan sendiri.Secara Realistis, mungkin diperlukan
+              waktu beberapa tahun untuk berlatih coding untuk mempelajari
+              keterampilan ini dengan cukup baik untuk mendapatkan pekerjaan
+              sebagai Front End Development.Tetapi Di Website ini Anda Dapat
+              mudah mempelajari materi pemograman daripada website lainnya.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              data-aos="fade-down"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="500"
+              data-aos-offset="0"
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFive"
+              style="box-shadow: none"
+            >
+              Bagaimana Cara Memulainya?
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseFive"
+            class="accordion-collapse collapse"
+          >
+            <div class="accordion-body">
+              Jika Anda Seorang Pemula, anda harus memulai dari awal kurikulum
+              inti LearnPlace.jika anda lebih mahir,kami tetap menyarankan untuk
+              memulai dari awal, namun anda dapat melompat ke area manapun yang
+              anda inginkan.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="footer" style="width: 100%; padding-top: 5rem">
+      <!-- Footer -->
+      <footer
+        class="text-center text-lg-start text-white"
+        style="background-color: bisque"
+      >
+        <!-- Grid container -->
+        <div class="p-4 pb-0">
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-dark">
+                <h6 class="text-uppercase mb-4 fw-bold text-dark">LearnCode</h6>
+                <p>
+                  Terimakasih sudah berkunjung di website ini . Dukung selalu
+                  website ini untuk lebih berkembang lagi.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 fw-bold text-dark">Materi</h6>
+                <p>
+                  <a class="text-dark text-decoration-none">HTML</a>
+                </p>
+                <p>
+                  <a class="text-dark text-decoration-none">CSS</a>
+                </p>
+                <p>
+                  <a class="text-dark text-decoration-none">JavaScript</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6
+                  class="text-uppercase mb-4 font-weight-bold text-dark fw-bold"
+                >
+                  Contact
+                </h6>
+                <p class="fas fa-home mr-3 text-dark fw-normal">
+                  Jl. Cikeusik No.73, Cikeusik, Cidahu, Kabupaten Kuningan, Jawa
+                  Barat.
+                </p>
+                <p class="fas fa-envelope mr-3 text-dark">
+                  admin@LearnCode.com
+                </p>
+                <p class="fas fa-phone mr-3 text-dark">+ 62 823 612 0306</p>
+                <p class="fas fa-print mr-3 text-dark">+08236120306</p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 fw-bold text-dark">Follow us</h6>
+                <div class="social-media d-flex">
+                  <img
+                    class="footer-icon mt-1"
+                    src="/asset/img/dashboard/logo-fb.png"
+                    alt=""
+                  />
+                  <img
+                    class="footer-icon mt-1"
+                    src="/asset/img/dashboard/logo-ig.png"
+                    alt=""
+                  />
+                  <img
+                    class="footer-icon mt-1"
+                    src="/asset/img/dashboard/logo-twitter.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3 text-dark"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-dark fw-bold text-decoration-none" href="#">Team 1</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/asset/js/script.js"></script>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
